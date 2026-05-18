@@ -1,0 +1,14 @@
+micro_ros_async_controller:
+  ros__parameters:
+
+    publish_rate: 10.0
+
+    status_topic: "/status"
+
+    cmd_vel_topic: "/cmd_vel"
+
+    controller_enabled: true
+
+    max_linear_velocity: 5.0
+
+    max_angular_velocity: 2.0
